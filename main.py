@@ -6,7 +6,7 @@
 
 from collections import Counter
 
-file_path = "C:/Users/Aditya Das/Desktop/bsubtilis.txt"
+file_path = " #your file path goes here "
 
 def read_seq():
     parts = []
@@ -52,3 +52,4 @@ def display (total_length,analyzed_data,counts):
 
 total_length, analyzed_data, counts = analyse_seq()
 display(total_length, analyzed_data, counts)
+
